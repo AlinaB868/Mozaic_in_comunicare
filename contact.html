@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Oana Anea</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header și Navigare -->
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h1>Oana Anea</h1>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="index.html">Acasă</a></li>
+              <li><a href="despre-mine.html">Despre Mine</a></li>
+              <li><a href="servicii.html">Servicii</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Căutare..." />
+            <button id="searchBtn" class="search-btn">🔍</button>
+          </div>
+          <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Pagina Contact -->
+    <section class="page-section">
+      <div class="container">
+        <h1>Contactează-mă</h1>
+        <p class="intro-text">
+          Sunt aici să ajut. Scrie-mi, sună-mă sau programează o consultație
+          gratuită
+        </p>
+
+        <div class="contact-content">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h2>Informații de Contact</h2>
+
+            <div class="contact-item">
+              <h3>📧 Email</h3>
+              <p>
+                <a href="mailto:info@mozaiccomunicare.ro">xxxx@gmail.com</a>
+              </p>
+              <p class="small">Răspund în maxim xx de ore</p>
+            </div>
+
+            <div class="contact-item">
+              <h3>📞 Telefon</h3>
+              <p><a href="tel:+40700000000">+40 700 000 000</a></p>
+              <p class="small">Disponibil luni - vineri, 9:00 - 18:00</p>
+            </div>
+
+            <div class="contact-item">
+              <h3>📍 Locație</h3>
+              <p>București, România</p>
+              <p class="small">
+                Disponibil pentru ședințe online și în persoană
+              </p>
+            </div>
+
+            <div class="contact-item">
+              <h3>🕐 Program de Lucru</h3>
+              <ul class="working-hours">
+                <li>Luni - Joi: 9:00 - 18:00</li>
+                <li>Vineri: 9:00 - 16:00</li>
+                <li>Sesiunile se pot programa după ore, pe cerere</li>
+              </ul>
+            </div>
+
+            <div class="social-links">
+              <h3>Urmărește-mă</h3>
+              <a href="#" class="social-btn">LinkedIn</a>
+              <a href="#" class="social-btn">Facebook</a>
+              <a href="#" class="social-btn">Instagram</a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <h2>Trimite-mi un Mesaj</h2>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Nume Complet *</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subiect *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">-- Selectează Subiect --</option>
+                  <option value="coaching">
+                    Interesat de Coaching Individual
+                  </option>
+                  <option value="corporate">Program Corporativ</option>
+                  <option value="workshop">Workshop</option>
+                  <option value="collaboration">Colaborare</option>
+                  <option value="other">Altă Chestiune</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mesaj *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-group checkbox">
+                <input type="checkbox" id="privacy" name="privacy" required />
+                <label for="privacy"
+                  >Accept politica de confidențialitate *</label
+                >
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Trimite Mesaj
+              </button>
+              <p class="form-note">Voi răspunde în maxim xx de ore.</p>
+            </form>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+          <h2>Întrebări Frecvente despre Contact</h2>
+          <div class="faq-items">
+            <div class="faq-item">
+              <h3>Ce este consultația inițială?</h3>
+              <p>
+                Este o ședință de 30-45 de minute, gratuită, în care ne
+                cunoaștem, discutăm nevoile tale și explorăm cum pot ajuta.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Care este cel mai bun moment să mă contactez?</h3>
+              <p>
+                Poți oricând trimite email (răspund în xx de ore) sau să mă suni
+                în programul de lucru. Pentru programarea unei sesiuni, te rog
+                să contactezi cu 48 de ore înainte.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Pot face sesiune online?</h3>
+              <p>
+                Desigur! Oferim sesiuni online prin Zoom sau Google Meet, cu
+                aceeași calitate ca și ședințele fizice.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Dar dacă ratez o sesiune?</h3>
+              <p>
+                Ințeleg că uneori se întâmplă. Te rog să mă anunți cu 24 de ore
+                înainte dacă nu poți veni la sesiune și o putem reprograma.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>Cum pot programa o consultație?</h3>
+              <p>
+                Hai să discutăm! Trimite-mi un e-mail, sună-mă sau completează
+                formularul de contact, iar eu îți voi răspunde cu
+                disponibilitățile pentru consultația ta.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Quick Scheduling -->
+        <section class="quick-scheduling">
+          <h2>Programează Rapid</h2>
+          <p>Alege tipul de sesiune pe care îl dorești</p>
+          <div class="scheduling-options">
+            <div class="scheduling-option">
+              <h3>📋 Consultație Inițială (Gratis)</h3>
+              <p>30-45 minute pentru a ne cunoaște</p>
+              <p class="price">Gratuit</p>
+              <button
+                class="btn btn-secondary"
+                onclick="handleScheduling('consultation')"
+              >
+                Programează
+              </button>
+            </div>
+            <div class="scheduling-option">
+              <h3>👤 Sessiune Coaching</h3>
+              <p>60 minute de coaching one-on-one</p>
+              <p class="price">€100-150</p>
+              <button
+                class="btn btn-secondary"
+                onclick="handleScheduling('session')"
+              >
+                Programează
+              </button>
+            </div>
+            <div class="scheduling-option">
+              <h3>📞 Apel Inițial</h3>
+              <p>30 minute de discuție telefonică</p>
+              <p class="price">Gratuit</p>
+              <button
+                class="btn btn-secondary"
+                onclick="handleScheduling('call')"
+              >
+                Programează
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Oana Anea - Coaching</h4>
+            <p>
+              Coaching profesional pentru comunicare eficientă și leadership
+              transformator.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Linkuri Rapide</h4>
+            <ul>
+              <li><a href="index.html">Acasă</a></li>
+              <li><a href="despre-mine.html">Despre Mine</a></li>
+              <li><a href="servicii.html">Servicii</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Email: xxxx@gmail.com</p>
+            <p>Tel: +40 7XX XXX XXX</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Oana Anea. Toate drepturile rezervate.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
